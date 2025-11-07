@@ -19,6 +19,7 @@
 - **[JavaScript](./javascript/)** - JavaScript 核心原理与高级特性
 - **[TypeScript](./typescript/)** - TypeScript 类型系统与高级特性
 - **[React](./react/)** - React 框架原理与最佳实践
+- **[Vue](./vue/)** - Vue 2/3 框架原理与最佳实践
 - **[浏览器原理](./browser/)** - 浏览器渲染机制、V8 引擎、事件循环
 
 ### ⚡ 工程能力类
