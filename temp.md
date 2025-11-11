@@ -145,7 +145,7 @@ souce map 和 错误上报相结合。常见方案如何sentry
 function com(...args) {
     let arr = [...args]
     return function (arg) {
-        arr.reduce((pre, cur) => {
+        return arr.reduce((pre, cur) => {
             return cur(pre)
         }, arg)
     }
