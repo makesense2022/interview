@@ -1,0 +1,7 @@
+node_modules
+.vitepress
+.eslintcache
+.md
+public
+.cursorrules
+.windsurf
