@@ -1,0 +1,24 @@
+{
+  "name": "electron-demo",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Minimal Electron app (main + preload + renderer)",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "electron .",
+    "start": "electron .",
+    "build": "echo 'Use electron-builder or forge to package' && exit 0"
+  },
+  "devDependencies": {
+    "electron": "^31.0.0"
+  },
+  "pnpm": {
+    "ignoredBuiltDependencies": [
+      "electron"
+    ],
+    "onlyBuiltDependencies": [
+      "electron"
+    ]
+  }
+}
