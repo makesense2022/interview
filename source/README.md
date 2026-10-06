@@ -119,3 +119,13 @@ pnpm dev
 
 *开始阅读源码吧！* 📖
 
+
+## 2026-10-06 归档快照
+
+为保证删除本地目录后仍能从本仓库完整恢复，下列源码已作为普通文件快照保存，替换原先缺少 `.gitmodules` 配置的子模块引用。保留原有文件和 LICENSE，没有升级或改写第三方实现；克隆本仓库即可取得这些源码。
+
+| 目录 | 上游仓库 | 快照提交 |
+| --- | --- | --- |
+| `nanoid/` | [ai/nanoid](https://github.com/ai/nanoid) | [`9d574d2c9706`](https://github.com/ai/nanoid/tree/9d574d2c9706f5cf82e2a043450c62664ea1fcf1) |
+| `vueuse/` | [vueuse/vueuse](https://github.com/vueuse/vueuse) | [`9f428e86a887`](https://github.com/vueuse/vueuse/tree/9f428e86a887ef8fb3ccae9fd70d1fba05ffaebd) |
+| `zustand/` | [pmndrs/zustand](https://github.com/pmndrs/zustand) | [`81df20a050ab`](https://github.com/pmndrs/zustand/tree/81df20a050abbbe23dd5f45294925d64521da58d) |

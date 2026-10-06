@@ -1,53 +1,24 @@
-# Interview Knowledge Gap Explorer
+# 面试与源码学习入口
 
-## 项目目的
+按实际学习需求维护，保留所有笔记与练习。这里没有统一网站构建或公众统计。
 
-本项目旨在通过面试和面试题的驱动，帮助我发现并填补知识盲区。通过深入思考面试过程中遇到的问题，系统性地整理和复习相关知识，从而达到知识体系的完善。
+已有主题：[JavaScript](javascript/README.md)、[React](react/README.md)、[浏览器](browser/README.md)、[前端工程](engineering/README.md)、[性能](performance/README.md)、[网络](network/README.md)、[架构](architecture/fe-architecture-answers.md)、[设计模式](design-patterns/README.md)、[系统设计](system-design/README.md)、[算法](algorithms/README.md)。Electron 样例在 `electron/`，本輪未启动桌面应用。
 
-## 核心理念
+原首页中 TypeScript/Vue/security/nodejs/cross-platform 等指向不存在目录的链接已从主入口移出；它们是待补主题，不伪造空目录。原计划完整保留于 [历史首页](docs/history/README-before-20261001.md)。
 
-- **问题驱动学习**：以面试题为导向，深入思考问题的本质
-- **场景化理解**：关注面试题背后的实际应用场景
-- **游戏化复习**：通过轻松的方式降低学习压力，提高学习效率
-- **知识分类整理**：系统性地将知识点按类别归档，便于后续查阅和复习
+一条可执行路径（Node v22.23.2，2026-10-01 复现）：
 
-## 项目结构
+1. 读 [函数式笔记](javascript/functional.md) 的 curry/partial 与 pipe/compose。
+2. 先预测同步/异步执行顺序，再运行 `node javascript/snippets/functional.js`。
+3. 核对输出：curry 三次均为 6，占位 curry 为 1-2-3，partial 为 6；pipe/compose 最终均为 49。演示只输出结果，不是完整边界测试套件。
+4. 复盘参数透传、this、Promise 化、占位符尚未填满的边界。把自己的答案另存带日期笔记，不覆盖题目。
 
-项目按技术栈或知识领域进行分类，主要包含以下核心分类：
+`javascript/snippets/handwrites.js` 中 promiseAll/LRUCache/EventEmitter/scheduler 当前是待完成骨架，不因文件存在就判定练习已完成。本轮没有代写答案或计入个人掌握程度。
 
-### 🔥 核心技能类
-- **[JavaScript](./javascript/)** - JavaScript 核心原理与高级特性
-- **[TypeScript](./typescript/)** - TypeScript 类型系统与高级特性
-- **[React](./react/)** - React 框架原理与最佳实践
-- **[Vue](./vue/)** - Vue 2/3 框架原理与最佳实践
-- **[浏览器原理](./browser/)** - 浏览器渲染机制、V8 引擎、事件循环
+第三方源码边界：`source/zustand`、`source/nanoid`、`source/vueuse` 的源码及 LICENSE 保留，三份许可证文件均标注 MIT。引用/再分发时继续保留对应作者与许可；未开展法律审查。它们的代码规模、上游测试数和功能不计入个人项目成果。本轮没有升级或改写 source/ 下任何内容。
 
-### ⚡ 工程能力类
-- **[性能优化](./performance/)** - 前端性能优化策略与实践
-- **[前端工程化](./engineering/)** - 构建工具、模块化、CI/CD、Monorepo
-- **[网络协议](./network/)** - HTTP/HTTPS、WebSocket、网络优化
+个人进步记录应分开写：阅读了什么、独立实现了什么、经什么输入验证、哪些依赖 AI 提示。现有材料未提供足够连续记录，不能由目录数推算能力增长。
 
-### 🏗️ 架构设计类
-- **[设计模式](./design-patterns/)** - 前端常用设计模式与实践
-- **[系统设计](./system-design/)** - 前端架构设计、技术方案选型
-- **[前端安全](./security/)** - XSS、CSRF、安全防护
+## 旧工作台参考资料
 
-### 🧮 基础能力类
-- **[算法与数据结构](./algorithms/)** - 前端相关的算法与数据结构
-
-### 🚀 扩展能力类
-- **[Node.js](./nodejs/)** - Node.js 全栈开发能力
-- **[跨端开发](./cross-platform/)** - 移动端、桌面端、小程序开发
-
-## 使用说明
-
-在项目中，每个知识点都应该包含：
-1. 问题描述
-2. 实际应用场景
-3. 问题本质分析
-4. 解决方案
-5. 相关知识拓展
-
----
-
-*通过面试题驱动深度思考，让学习变得轻松有趣* 🚀
+2026-10-06：独立的 interview-workbench 已清理，少量面试模板、图片抓取实验源码和 Git 历史归到 [参考归档](docs/archive/interview-workbench-2026-10-06/README.md)。下载图片和旧日志不作为当前学习资料。

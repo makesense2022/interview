@@ -1,0 +1,115 @@
+{
+  "sourceProject": "interview-workbench",
+  "archivedFiles": [
+    {
+      "original": "README.md",
+      "archive": "README.previous.md",
+      "bytes": 2226,
+      "sha256": "8171b062bb160ce0e1531cca33540ed9c8cdbb6f74ba147a39826306bc147715"
+    },
+    {
+      "original": ".gitignore",
+      "archive": ".gitignore",
+      "bytes": 397,
+      "sha256": "e08b7b901018c8a282b3c1e4afe047705ba9e7aa909c5ecc9dd7d5ff9153bf07"
+    },
+    {
+      "original": "project1.md",
+      "archive": "project1.md",
+      "bytes": 7816,
+      "sha256": "d70e0c18c2db643eee44fdf40a8d4d7d11789e3f8fefa190adc3d6c535c0c83b"
+    },
+    {
+      "original": "craw/crawl_deep.py",
+      "archive": "craw/crawl_deep.py",
+      "bytes": 24062,
+      "sha256": "ed1eb942c95960214b4bdf7cbbb0f2933815a89f26486d4b8da05c1614c7a0de"
+    },
+    {
+      "original": "craw/requirements.txt",
+      "archive": "craw/requirements.txt",
+      "bytes": 103,
+      "sha256": "82cbcbe0d4ea5a438ae0cc8a85767c51d788c9d31a7624a788bebefb7c6163f5"
+    },
+    {
+      "original": "craw/crawl_single_page.py",
+      "archive": "craw/crawl_single_page.py",
+      "bytes": 3207,
+      "sha256": "676f13422bf607f664701f954f352261cdc3c87cc42653d0a64de4358c4269e3"
+    },
+    {
+      "original": "craw/README.md",
+      "archive": "craw/README.md",
+      "bytes": 5448,
+      "sha256": "94def30c403bc17c5ac8e9248781d9ff6d57bac9d6187f5c5e61ce2dc9b3d49d"
+    },
+    {
+      "original": "craw/.gitignore",
+      "archive": "craw/.gitignore",
+      "bytes": 423,
+      "sha256": "96a0e61d54d3aeb4186eaade5e70e3cef63cc6b2a877671e338d45f8a60b3629"
+    },
+    {
+      "original": "craw/examples.py",
+      "archive": "craw/examples.py",
+      "bytes": 5447,
+      "sha256": "420b112e0a8fccadf8356438453da29cfb251932ce4e98009053c5d705e5b98b"
+    },
+    {
+      "original": "craw/ANTI_RATE_LIMIT.md",
+      "archive": "craw/ANTI_RATE_LIMIT.md",
+      "bytes": 4537,
+      "sha256": "c20b55fa2504f9d503f2d113fbb512526ec333ecb48a135100ef164e06962af9"
+    },
+    {
+      "original": "craw/main.py",
+      "archive": "craw/main.py",
+      "bytes": 3572,
+      "sha256": "95b75c3d9a9d7e3476c2d3d2e1b6e04fa2b2d058e4c83b4700f18173905a6347"
+    },
+    {
+      "original": "craw/test_crawler.py",
+      "archive": "craw/test_crawler.py",
+      "bytes": 1922,
+      "sha256": "5b4f0a25efc0b14b2f944261df9188aabb5e69527def28a883f8356e4033e3ce"
+    },
+    {
+      "original": "craw/crawl_batch.py",
+      "archive": "craw/crawl_batch.py",
+      "bytes": 4220,
+      "sha256": "e119c7440c6d6abd381833ee3bc35f9482a87eb1e0a3f7b4bcf7af0ffdb35a80"
+    },
+    {
+      "original": "craw/crawl_with_clicks.py",
+      "archive": "craw/crawl_with_clicks.py",
+      "bytes": 29225,
+      "sha256": "00c7d1ff1b763dbde473151567a05eef6611e7e09c08d06cd310a743434abc15"
+    },
+    {
+      "original": "craw/config/config.py",
+      "archive": "craw/config/config.py",
+      "bytes": 2445,
+      "sha256": "9bffef2c2f2d1d579105a6f3fd1c66b21ca3a5d2562e67d395994f4dad627d8e"
+    },
+    {
+      "original": "craw/src/image_crawler.py",
+      "archive": "craw/src/image_crawler.py",
+      "bytes": 15848,
+      "sha256": "2534ed5816143fcea37f8a7a998bf41bdb99b6d9ecf6a789c01fc1a047eb279d"
+    },
+    {
+      "original": "craw/src/__init__.py",
+      "archive": "craw/src/__init__.py",
+      "bytes": 114,
+      "sha256": "def9d857a7302727c9eda2c4101f35d13af70d2d8d166e4b702fbbda462b2840"
+    }
+  ],
+  "sourceBytes": 111012,
+  "gitBundleBytes": 33063,
+  "gitBundleVerified": true,
+  "excludedFolders": [
+    "downloads",
+    "logs"
+  ],
+  "archiveReason": "Small reference materials retained; retired standalone experiment can be removed."
+}
